@@ -1,4 +1,8 @@
-alias le='cd $HOME/github/logmeingn/leetcode'
-alias ma='cd $HOME/github/logmeingn/machinelearning'
-alias in='cd $HOME/github/logmeingn/interview'
-alias sc='cd $HOME/github/logmeingn/scala'
+#!/bin/bash
+GITROOT_DIR=$(dirname $(PWD))
+
+alias le='cd $GITROOTDIR/leetcode'
+alias ml='cd $GITROOTDIR/machinelearning'
+alias in='cd $GITROOTDIR/interview'
+alias sc='cd $GITROOTDIR/scala'
+alias myl='cd $GITROOTDIR/myreference'
