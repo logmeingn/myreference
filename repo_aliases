@@ -1,0 +1,4 @@
+alias le='cd $HOME/github/logmeingn/leetcode'
+alias ma='cd $HOME/github/logmeingn/machinelearning'
+alias in='cd $HOME/github/logmeingn/interview'
+alias sc='cd $HOME/github/logmeingn/scala'
