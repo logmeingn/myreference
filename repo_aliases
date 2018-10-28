@@ -1,5 +1,5 @@
 #!/bin/bash
-GITROOT_DIR=$(dirname $(PWD))
+export GITROOTDIR=$(dirname $(PWD))
 
 alias le='cd $GITROOTDIR/leetcode'
 alias ml='cd $GITROOTDIR/machinelearning'
